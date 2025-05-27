@@ -20,5 +20,6 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.COAL_PELLET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHARCOAL_PELLET, Models.GENERATED);
     }
 }
