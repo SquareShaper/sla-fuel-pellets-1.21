@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sla-fuel-pellets",
+	"version": "${version}",
+	"name": "SLA - Fuel Pellets",
+	"description": "This mod adds pellet versions of different fuel sources, inspired by the various mods that add Tiny Coal. This is the first mod in my Silly Little Additions series(SLA).",
+	"authors": [
+		"SquareShaper"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "<MIT>",
+	"icon": "assets/sla-fuel-pellets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.squareshaper.slafuelpellets.SLAFuelPellets"
+		],
+		"fabric-datagen": [
+			"net.squareshaper.slafuelpellets.SLAFuelPelletsDataGenerator"
+		],
+		"client":[
+			"net.squareshaper.slafuelpellets.SLAFuelPelletsClient"
+		]
+	},
+	"mixins": [
+		"sla-fuel-pellets.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
