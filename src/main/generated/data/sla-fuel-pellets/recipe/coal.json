@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sla-fuel-pellets:coal_pellet"
+    },
+    {
+      "item": "sla-fuel-pellets:coal_pellet"
+    },
+    {
+      "item": "sla-fuel-pellets:coal_pellet"
+    },
+    {
+      "item": "sla-fuel-pellets:coal_pellet"
+    },
+    {
+      "item": "sla-fuel-pellets:coal_pellet"
+    },
+    {
+      "item": "sla-fuel-pellets:coal_pellet"
+    },
+    {
+      "item": "sla-fuel-pellets:coal_pellet"
+    },
+    {
+      "item": "sla-fuel-pellets:coal_pellet"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:coal"
+  }
+}

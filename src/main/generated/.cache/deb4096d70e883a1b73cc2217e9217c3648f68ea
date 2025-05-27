@@ -1,0 +1,9 @@
+// 1.21	2025-05-27T12:22:08.4777789	SLA - Fuel Pellets/Recipes
+66c235f6e4ed6cb16f2fe50b96d1ebd39455474c data\sla-fuel-pellets\advancement\recipes\misc\coal.json
+f5ced91f4378950adaf149cfa0d8dc6986ef1d4f data\sla-fuel-pellets\advancement\recipes\misc\charcoal.json
+1939d69a2c57d0df836cf8a65c3e5eb6aa6e4de4 data\sla-fuel-pellets\recipe\charcoal_pellet_from_charcoal.json
+3e3acb8011381d3cc8f9b4740159e700f9e22c67 data\sla-fuel-pellets\advancement\recipes\misc\coal_pellet_from_coal.json
+f2f9099f955a7b1bebf0f306fbdd55afef70eff3 data\sla-fuel-pellets\recipe\coal.json
+38605675c774e45b05c933ac09fc091396f19234 data\sla-fuel-pellets\recipe\charcoal.json
+7c9d517ecfc01b80fe28525c6415d96c5cda49b2 data\sla-fuel-pellets\recipe\coal_pellet_from_coal.json
+5a88525fe20b11a8220df0650035c17851a62094 data\sla-fuel-pellets\advancement\recipes\misc\charcoal_pellet_from_charcoal.json
