@@ -31,5 +31,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModItems.CHARCOAL_PELLET,8)
                 .criterion("has_charcoal_pellet",conditionsFromItem(ModItems.CHARCOAL_PELLET))
                 .offerTo(re);
+
+        //Blaze Pellet
+        offerShapelessRecipe(re, ModItems.BLAZE_PELLET, Items.BLAZE_POWDER, "sla-pellets", 6);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.BLAZE_POWDER)
+                .input(ModItems.BLAZE_PELLET,6)
+                .criterion("has_blaze_pellet",conditionsFromItem(ModItems.BLAZE_PELLET))
+                .offerTo(re);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.BLAZE_ROD)
+                .input(Items.BLAZE_POWDER,2)
+                .criterion("has_blaze_powder",conditionsFromItem(Items.BLAZE_POWDER))
+                .offerTo(re);
     }
 }

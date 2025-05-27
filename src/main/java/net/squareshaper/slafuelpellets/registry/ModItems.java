@@ -11,6 +11,7 @@ import net.squareshaper.slafuelpellets.SLAFuelPellets;
 public class ModItems {
     public static final Item COAL_PELLET = registerItem("coal_pellet",new Item(new Item.Settings()));
     public static final Item CHARCOAL_PELLET = registerItem("charcoal_pellet",new Item(new Item.Settings()));
+    public static final Item BLAZE_PELLET = registerItem("blaze_pellet",new Item(new Item.Settings()));
 
     public static void registerModItems() {
         SLAFuelPellets.LOGGER.info("Registering mod items for " + SLAFuelPellets.MOD_ID);
@@ -19,6 +20,7 @@ public class ModItems {
         {
             entries.addAfter(Items.COAL, COAL_PELLET);
             entries.addAfter(Items.CHARCOAL, CHARCOAL_PELLET);
+            entries.addAfter(Items.BLAZE_ROD, BLAZE_PELLET);
         });
     }
 
