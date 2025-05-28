@@ -8,8 +8,7 @@
 		"SquareShaper"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/SquareShaper/sla-fuel-pellets-1.21"
 	},
 	"license": "<MIT>",
 	"icon": "assets/sla-fuel-pellets/icon.png",
