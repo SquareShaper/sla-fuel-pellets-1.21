@@ -8,9 +8,11 @@
 		"SquareShaper"
 	],
 	"contact": {
-		"sources": "https://github.com/SquareShaper/sla-fuel-pellets-1.21"
+		"sources": "https://github.com/SquareShaper/sla-fuel-pellets-1.21",
+		"issues": "https://github.com/SquareShaper/sla-fuel-pellets-1.21/issues",
+		"modrinth": "https://modrinth.com/mod/fuel-pellets"
 	},
-	"license": "<MIT>",
+	"license": "MIT",
 	"icon": "assets/sla-fuel-pellets/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -29,11 +31,26 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21",
+		"minecraft": "~1.21.5",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
 	"suggests": {
 		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.source": "https://github.com/SquareShaper/sla-fuel-pellets-1.21",
+				"modmenu.issues": "https://github.com/SquareShaper/sla-fuel-pellets-1.21/issues",
+				"modmenu.modrinth": "https://modrinth.com/mod/fuel-pellets"
+			},
+			"parent": {
+				"id": "squareshaper-sla",
+				"name": "Silly Little Additions (SLA)",
+				"description": "A series of silly mods, each adding a little bit of content to Minecraft. "
+			},
+			"update_checker": true
+		}
 	}
 }

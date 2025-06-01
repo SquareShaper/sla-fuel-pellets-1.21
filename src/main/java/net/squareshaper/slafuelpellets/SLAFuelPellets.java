@@ -2,7 +2,7 @@ package net.squareshaper.slafuelpellets;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import net.squareshaper.slafuelpellets.registry.ModItems;
@@ -20,9 +20,12 @@ public class SLAFuelPellets implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 
-		FuelRegistry.INSTANCE.add(ModItems.COAL_PELLET, 200);
-		FuelRegistry.INSTANCE.add(ModItems.CHARCOAL_PELLET, 200);
-		FuelRegistry.INSTANCE.add(ModItems.BLAZE_PELLET, 200);
-		FuelRegistry.INSTANCE.add(Items.BLAZE_POWDER, 1200);
+
+		FuelRegistryEvents.BUILD.register(((builder, context) -> {
+			builder.add(ModItems.COAL_PELLET, context.baseSmeltTime());
+			builder.add(ModItems.CHARCOAL_PELLET, context.baseSmeltTime());
+			builder.add(ModItems.BLAZE_PELLET, context.baseSmeltTime());
+			builder.add(Items.BLAZE_POWDER, context.baseSmeltTime() * 6);
+		}));
 	}
 }

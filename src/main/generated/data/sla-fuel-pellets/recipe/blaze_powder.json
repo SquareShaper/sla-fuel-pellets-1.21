@@ -1,25 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
+  "group": "blaze_powder",
   "ingredients": [
-    {
-      "item": "sla-fuel-pellets:blaze_pellet"
-    },
-    {
-      "item": "sla-fuel-pellets:blaze_pellet"
-    },
-    {
-      "item": "sla-fuel-pellets:blaze_pellet"
-    },
-    {
-      "item": "sla-fuel-pellets:blaze_pellet"
-    },
-    {
-      "item": "sla-fuel-pellets:blaze_pellet"
-    },
-    {
-      "item": "sla-fuel-pellets:blaze_pellet"
-    }
+    "sla-fuel-pellets:blaze_pellet",
+    "sla-fuel-pellets:blaze_pellet",
+    "sla-fuel-pellets:blaze_pellet",
+    "sla-fuel-pellets:blaze_pellet",
+    "sla-fuel-pellets:blaze_pellet",
+    "sla-fuel-pellets:blaze_pellet"
   ],
   "result": {
     "count": 1,

@@ -1,4 +1,7 @@
-// 1.21	2025-05-27T15:17:48.558504	SLA - Fuel Pellets/Model Definitions
-de1bf3004c40856046d94505e31fcdd8f2b6f7b1 assets\sla-fuel-pellets\models\item\coal_pellet.json
-7f81dcc8915aaf962a068588e9f5f7df23c62ffd assets\sla-fuel-pellets\models\item\charcoal_pellet.json
-4ffd6b7df1ddf1c8c482cc71c743c06fbedbdd5b assets\sla-fuel-pellets\models\item\blaze_pellet.json
+// 1.21.5	-999999999-01-01T00:00:00	SLA - Fuel Pellets/Model Definitions
+89d7ba94a5519ee3bc298080eca5b262c75a3f31 assets/sla-fuel-pellets/items/blaze_pellet.json
+c780c2a7ac5181d929118a17e7c9d13c4399aa4e assets/sla-fuel-pellets/items/charcoal_pellet.json
+bb6381de0891e5b44bbd918209e9f23158f45018 assets/sla-fuel-pellets/items/coal_pellet.json
+4ffd6b7df1ddf1c8c482cc71c743c06fbedbdd5b assets/sla-fuel-pellets/models/item/blaze_pellet.json
+7f81dcc8915aaf962a068588e9f5f7df23c62ffd assets/sla-fuel-pellets/models/item/charcoal_pellet.json
+de1bf3004c40856046d94505e31fcdd8f2b6f7b1 assets/sla-fuel-pellets/models/item/coal_pellet.json

@@ -3,9 +3,7 @@
   "category": "misc",
   "group": "sla-pellets",
   "ingredients": [
-    {
-      "item": "minecraft:charcoal"
-    }
+    "minecraft:charcoal"
   ],
   "result": {
     "count": 8,

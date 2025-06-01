@@ -1,0 +1,15 @@
+// 1.21.5	-999999999-01-01T00:00:00	SLA - Fuel Pellets/SLAFuelPelletsRecipes
+3083ba961466bf69460d12e32697972ea3603528 data/sla-fuel-pellets/advancement/recipes/misc/blaze_pellet_from_blaze_powder.json
+8e45fbc0a65892e40309949073dfd77b1e4bc613 data/sla-fuel-pellets/advancement/recipes/misc/blaze_powder.json
+2f3c8abf34c8477f2adfc7a135f7003e7a8ddf10 data/sla-fuel-pellets/advancement/recipes/misc/blaze_rod.json
+f5ced91f4378950adaf149cfa0d8dc6986ef1d4f data/sla-fuel-pellets/advancement/recipes/misc/charcoal.json
+5a88525fe20b11a8220df0650035c17851a62094 data/sla-fuel-pellets/advancement/recipes/misc/charcoal_pellet_from_charcoal.json
+66c235f6e4ed6cb16f2fe50b96d1ebd39455474c data/sla-fuel-pellets/advancement/recipes/misc/coal.json
+3e3acb8011381d3cc8f9b4740159e700f9e22c67 data/sla-fuel-pellets/advancement/recipes/misc/coal_pellet_from_coal.json
+289427ae738fab7ba3f85461f7a2352e1c79237a data/sla-fuel-pellets/recipe/blaze_pellet_from_blaze_powder.json
+ee2fa7cf9a155bb4805df1df5fa9d2680f283c66 data/sla-fuel-pellets/recipe/blaze_powder.json
+460446d68e2ba6cf25b81ccf40323aa92c1f8e26 data/sla-fuel-pellets/recipe/blaze_rod.json
+1e4b7f89854f641d156a8dbefaa12564ebb72881 data/sla-fuel-pellets/recipe/charcoal.json
+f7a697c2385a968fde666602ce77fccb2d6c1130 data/sla-fuel-pellets/recipe/charcoal_pellet_from_charcoal.json
+ebaaecc3d25d233066f8d0f81886fbd1eb5ba4fb data/sla-fuel-pellets/recipe/coal.json
+546699d5fc9d02525c38802b41d9832c826fa449 data/sla-fuel-pellets/recipe/coal_pellet_from_coal.json
