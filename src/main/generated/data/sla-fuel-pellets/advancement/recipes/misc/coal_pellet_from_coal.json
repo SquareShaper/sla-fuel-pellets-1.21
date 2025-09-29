@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:coal_pellet_from_coal"
+        "recipe": "sla-fuel-pellets:coal_pellet_from_coal"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:coal_pellet_from_coal"
+      "sla-fuel-pellets:coal_pellet_from_coal"
     ]
   }
 }
